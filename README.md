@@ -19,15 +19,15 @@
 
   **Clone the repository:**
 
-   git clone https://github.com/yourusername/photography-contest.gitcd photography-contest
+   1.git clone https://github.com/yourusername/photography-contest.gitcd photography-contest
 
  **Install dependencies:**
 
-   pip install flask
+   1.pip install flask
 
  **Run the application:**
 
-   python app.py
+   1.python app.py
 
  **Access the application:**
  
