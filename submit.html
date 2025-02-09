@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Photo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Submit Your Photograph</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="title">Photo Title:</label>
+        <input type="text" name="title" id="title" required><br><br>
+        
+        <label for="description">Description:</label>
+        <textarea name="description" id="description" required></textarea><br><br>
+
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="photo">Upload Photo:</label>
+        <input type="file" name="photo" id="photo" required><br><br>
+
+        <input type="submit" value="Submit Photo">
+    </form>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

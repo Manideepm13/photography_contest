@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judge Photo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Judge Photo: {{ submission[1] }}</h1>
+    <img src="{{ submission[4] }}" alt="{{ submission[1] }}" width="300">
+    <form method="POST">
+        <label for="score">Enter Score (1-10):</label>
+        <input type="number" name="score" min="1" max="10" required><br><br>
+        <input type="submit" value="Submit Score">
+    </form>
+    <a href="{{ url_for('results') }}">Back to Results</a>
+</body>
+</html>
