@@ -19,19 +19,27 @@
 
   **Clone the repository:**
 
+
    1.git clone https://github.com/yourusername/photography-contest.gitcd photography-contest
+
 
  **Install dependencies:**
 
+
    1.pip install flask
+
 
  **Run the application:**
 
+
    1.python app.py
 
+
  **Access the application:**
+
  
    Open your browser and go to http://127.0.0.1:5000/ to interact with the Photography Contest Management System.
+
 
  /**photography_contest**
 ├── app.py                  # Main Flask Application
@@ -45,7 +53,9 @@
 │   └── styles.css          # CSS file for styling
 └── data.db
 
+
 **Usage**
+
 
    ** **Submit Your Photo**:Go to the "Submit Your Photo" page and enter the required information: photo title, description, your name, and a URL for the photo.
 
