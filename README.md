@@ -12,27 +12,27 @@
 
 **Prerequisites**
 
-    1.Python 3.x
-    2.Flask
+    Python 3.x
+    Flask
     
 **Installation**
 
   **Clone the repository:**
 
 
-   1.git clone https://github.com/yourusername/photography-contest.gitcd photography-contest
+   git clone https://github.com/yourusername/photography-contest.gitcd photography-contest
 
 
  **Install dependencies:**
 
 
-   1.pip install flask
+   pip install flask
 
 
  **Run the application:**
 
 
-   1.python app.py
+   python app.py
 
 
  **Access the application:**
