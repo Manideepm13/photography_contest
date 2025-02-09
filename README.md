@@ -41,7 +41,7 @@
    Open your browser and go to http://127.0.0.1:5000/ to interact with the Photography Contest Management System.
 
 
- /**photography_contest**
+ **photography_contest**/
 ├── app.py                  # Main Flask Application
 ├── templates/              # HTML templates
 │   ├── index.html          # Home Page
@@ -51,7 +51,7 @@
 │   └── results.html        # Results Page
 ├── static/                 # Static files like CSS
 │   └── styles.css          # CSS file for styling
-└── data.db
+└── data.db/
 
 
 **Usage**
