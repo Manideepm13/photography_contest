@@ -15,14 +15,22 @@ Project Structure
  **The project contains the following files and directories**:
 
 /Photography-Contest-Management-System/
-├── app.py                # Main Python script to run the application logic
+├── app.py # Main Python script to run the application logic
+
 ├── index.html            # Homepage of the contest (viewing contest details)
+
 ├── judge.html            # Judge's page for rating photos
+
 ├── results.html          # Display contest results after judging
+
 ├── submit.html           # Submission page for participants to upload their photos
+
 ├── rules.html            # Contest rules page
+
 ├── styles.css            # Styling for the HTML pages
+
 ├── data.db               # SQLite database for storing photo submissions and results
+
 └── README.md             # Project description and usage instructions/
 
 
