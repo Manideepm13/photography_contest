@@ -14,7 +14,7 @@ Photography-Contest-Management-System/
 ├── rules.html            # Contest rules page
 ├── styles.css            # Styling for the HTML pages
 ├── data.db               # SQLite database for storing photo submissions and results
-└── README.md             # Project description and usage instructions
+└── README.md             # Project description and usage instructions/
 
 Features
 
