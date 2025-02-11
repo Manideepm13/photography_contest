@@ -3,7 +3,16 @@
 A simple, console-based system that manages photography contests, allowing participants to submit their photographs, view contest rules, and get results. The system includes basic functionality for photo submission, rules display, and judging. The judging system uses a simple rating approach.
 Project Structure
 
-**The project contains the following files and directories**:
+
+**Features**
+
+    Participant Submission: Users can submit their photos along with a title and description.
+    Judging System: Judges can rate submitted photos.
+    Result Display: After judging, the results of the contest will be displayed on a results page.
+    Rules Display: Contest participants and judges can view the official contest rules.
+    Database: All data (photos, descriptions, and results) are stored in a SQLite database for easy management and retrieval.
+
+ **The project contains the following files and directories**:
 
 /Photography-Contest-Management-System/
 ├── app.py                # Main Python script to run the application logic
@@ -16,13 +25,6 @@ Project Structure
 ├── data.db               # SQLite database for storing photo submissions and results
 └── README.md             # Project description and usage instructions/
 
-**Features**
-
-    Participant Submission: Users can submit their photos along with a title and description.
-    Judging System: Judges can rate submitted photos.
-    Result Display: After judging, the results of the contest will be displayed on a results page.
-    Rules Display: Contest participants and judges can view the official contest rules.
-    Database: All data (photos, descriptions, and results) are stored in a SQLite database for easy management and retrieval.
 
 **Setup Instructions**
 1. Prerequisites
