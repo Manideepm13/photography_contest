@@ -1,9 +1,9 @@
-Photography Contest Management System
+**Photography Contest Management System**
 
 A simple, console-based system that manages photography contests, allowing participants to submit their photographs, view contest rules, and get results. The system includes basic functionality for photo submission, rules display, and judging. The judging system uses a simple rating approach.
 Project Structure
 
-The project contains the following files and directories:
+**The project contains the following files and directories**:
 
 Photography-Contest-Management-System/
 ├── app.py                # Main Python script to run the application logic
@@ -16,7 +16,7 @@ Photography-Contest-Management-System/
 ├── data.db               # SQLite database for storing photo submissions and results
 └── README.md             # Project description and usage instructions/
 
-Features
+**Features**
 
     Participant Submission: Users can submit their photos along with a title and description.
     Judging System: Judges can rate submitted photos.
@@ -24,7 +24,7 @@ Features
     Rules Display: Contest participants and judges can view the official contest rules.
     Database: All data (photos, descriptions, and results) are stored in a SQLite database for easy management and retrieval.
 
-Setup Instructions
+**Setup Instructions**
 1. Prerequisites
 
 Ensure you have Python 3.x installed on your machine. You will also need the following Python libraries:
@@ -55,20 +55,20 @@ python app.py
     Judge Page (judge.html): Judges can rate submitted photos.
     Results Page (results.html): Shows the results after the contest has been judged.
 
-Database (data.db)
+**Database (data.db)**
 
 The database file data.db stores:
 
     Photo submissions: Each participant’s photo title, description, and file name.
     Ratings: Each judge’s ratings for each photo.
 
-Example Usage
+**Example Usage**
 
     Participant Submission: Navigate to the submit page (submit.html) and upload your photo with a title and description.
     Judging: Judges can go to the judge.html page, view photos, and rate them.
     Viewing Results: After the contest ends, visit the results.html page to view the scores.
 
-File Descriptions
+**File Descriptions**
 
     app.py: The main Python script that handles routing, database connections, and application logic.
     index.html: A simple landing page with contest details and links to other pages.
